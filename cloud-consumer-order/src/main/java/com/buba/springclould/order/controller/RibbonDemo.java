@@ -23,8 +23,7 @@ import java.util.List;
 public class RibbonDemo {
     public static void main(String[] args) {
         List<Server> list= Lists.newArrayList(
-                new Server("127.0.0.1",8001),
-                new Server("127.0.0.1",8002));
+                new Server("127.0.0.1",8001));
         BaseLoadBalancer baseLoadBalancer = LoadBalancerBuilder.newBuilder().buildFixedServerListLoadBalancer(list);
         for (int i = 0; i < 10; i++) {
             Object get = LoadBalancerCommand.builder().withLoadBalancer(baseLoadBalancer).build().submit(new ServerOperation<Object>() {

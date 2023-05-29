@@ -9,10 +9,14 @@ spring:
         file-extension: yaml
         # 是否动态刷新，默认为false
         refresh: true
+        #配置类型的默认值为DEFAULT_GROUP
         group: PORT_GROUP
+        #正常用来区分不同的环境，且相互之间是隔离的，其实就是nacos上的不同命名空间
         namespace: 3e099383-badc-4cc4-99d1-22a6c5570db8
       discovery:
         server-addr: localhost:8848
+        #正常用来区分不同的环境，且相互之间是隔离的，其实就是nacos上的不同命名空间
+        namespace: 3e099383-badc-4cc4-99d1-22a6c5570db8
 
   # 当前环境对应的profile
   profiles:
