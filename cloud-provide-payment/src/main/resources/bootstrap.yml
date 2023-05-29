@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: cloud-provide-payment  #服务名
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        # 配置中心配置文件的后缀名格式
+        file-extension: yaml
+        # 是否动态刷新，默认为false
+        refresh: true
+        #配置类型的默认值为DEFAULT_GROUP
+        group: PORT_GROUP
+        #正常用来区分不同的环境，且相互之间是隔离的，其实就是nacos上的不同命名空间
+        namespace: 3e099383-badc-4cc4-99d1-22a6c5570db8
+      discovery:
+        server-addr: localhost:8848
+
+  # 当前环境对应的profile
+  profiles:
+    #意思是读取namespace为3e099383-badc-4cc4-99d1-22a6c5570db8，
+    #然后group是PORT_GROUP，然后服务名为cloud-provide-payment，后缀为port的配置
+    active: port
