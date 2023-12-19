@@ -22,15 +22,13 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/payment")
-@RefreshScope
+//@RefreshScope
 public class PaymentControler {
 
     @Autowired
     private PaymentService paymentService;
 
-    @Value("${server.port}")
     private Integer port;
-    @Value("${config.info}")
     private String info;
     @Autowired
     private DiscoveryClient discoveryClient;

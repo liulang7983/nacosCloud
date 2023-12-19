@@ -15,7 +15,7 @@
 
         <!-- 引入实体Module的包 -->
         <dependency>
-            <groupId>com.study.springcloud</groupId>
+            <groupId>org.example</groupId>
             <artifactId>cloud-api-commons</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -66,10 +66,10 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-alibaba-nacos-discovery</artifactId>
         </dependency>
-        <dependency>
+       <!-- <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
 </project>

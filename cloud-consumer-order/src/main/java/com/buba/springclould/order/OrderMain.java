@@ -13,7 +13,6 @@ import org.springframework.web.client.RestTemplate;
  * @date 2022/10/21 17:18
  */
 @SpringBootApplication
-@EnableDiscoveryClient
 public class OrderMain {
     public static void main(String[] args) {
         SpringApplication.run(OrderMain.class,args);

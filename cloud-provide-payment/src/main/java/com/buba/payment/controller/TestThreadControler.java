@@ -23,7 +23,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/testThread")
-@RefreshScope
+//@RefreshScope
 public class TestThreadControler {
 
     @Autowired

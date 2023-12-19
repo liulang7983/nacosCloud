@@ -24,7 +24,7 @@ public class TestController {
     @RequestMapping("/add")
     public CommonResult add( String name){
         System.out.println("name:"+name);
-        for (int i = 0; i < 5000; i++) {
+        for (int i = 0; i < 50; i++) {
             int finalI = i;
             new Thread(new Runnable() {
                 @Override
@@ -40,7 +40,7 @@ public class TestController {
     @RequestMapping("/threadAdd")
     public CommonResult threadAdd( String name){
         System.out.println("name:"+name);
-        for (int i = 0; i < 5000; i++) {
+        for (int i = 0; i < 50; i++) {
             int finalI = i;
             new Thread(new Runnable() {
                 @Override

@@ -8,5 +8,6 @@ spring:
       #指定注册中心，服务间互相调用必须指定同一个注册中心
       discovery:
         server-addr: 127.0.0.1:8848
+
         #正常用来区分不同的环境，且相互之间是隔离的，其实就是nacos上的不同命名空间(服务间互相调用必须指定同一个注册中心)
-        namespace: 3e099383-badc-4cc4-99d1-22a6c5570db8
+        #namespace: 3e099383-badc-4cc4-99d1-22a6c5570db8
