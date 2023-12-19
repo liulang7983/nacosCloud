@@ -19,12 +19,18 @@ public class PaymentControler {
     @RequestMapping("/create")
     public CommonResult create(@RequestBody Payment payment) {
         System.out.println("Payment:" + payment);
+        for (int i = 0; i <9 ; i++) {
+            paymentService.create(payment);
+        }
         return paymentService.create(payment);
     }
 
     @RequestMapping("/queryById/{id}")
     public CommonResult queryById(@PathVariable("id") Long id) {
         System.out.println("queryById:" + id);
+        for (int i = 0; i <9 ; i++) {
+            paymentService.queryById(id);
+        }
         return paymentService.queryById(id);
     }
 }
