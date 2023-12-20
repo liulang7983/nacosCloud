@@ -11,6 +11,7 @@
         <module name="consumeropenfeign" />
         <module name="cloud-consumer-order" />
         <module name="cloud-api-commons" />
+        <module name="nacos-config" />
       </profile>
     </annotationProcessing>
   </component>

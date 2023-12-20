@@ -13,6 +13,7 @@
         <module>cloud-consumer-order</module>
         <module>cloud-provide-payment</module>
         <module>consumer-openfeign</module>
+        <module>nacos-config</module>
     </modules>
 
     <properties>
