@@ -14,6 +14,7 @@
         <module>cloud-provide-payment</module>
         <module>consumer-openfeign</module>
         <module>nacos-config</module>
+        <module>namespace-config</module>
     </modules>
 
     <properties>
