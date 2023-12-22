@@ -15,6 +15,7 @@
         <module>consumer-openfeign</module>
         <module>nacos-config</module>
         <module>namespace-config</module>
+        <module>nacos-sentinel</module>
     </modules>
 
     <properties>

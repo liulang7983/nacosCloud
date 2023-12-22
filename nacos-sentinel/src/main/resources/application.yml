@@ -1,0 +1,18 @@
+server:
+  port: 8007
+spring:
+  application:
+    name: nacos-sentinel
+  cloud:
+    nacos:
+      #指定注册中心，服务间互相调用必须指定同一个注册中心
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        # sentinel-dashboard 地址
+        dashboard: 127.0.0.1:8819
+        # dashboard 通信端口 默认为8719
+        port: 8719
+        # 发送心跳间隔时间
+        heartbeat-interval-ms: 5000
