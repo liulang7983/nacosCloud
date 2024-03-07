@@ -16,6 +16,7 @@
         <module>nacos-config</module>
         <module>namespace-config</module>
         <module>nacos-sentinel</module>
+        <module>nacos-config-consumer</module>
     </modules>
 
     <properties>

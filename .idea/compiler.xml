@@ -8,13 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="namespace-config" />
+        <module name="nacosconfigconsumer" />
         <module name="cloud-api-commons" />
         <module name="cloud-provide-payment" />
         <module name="nacos-config" />
+        <module name="cloud-consumer-order" />
         <module name="nacos-sentinel" />
         <module name="consumeropenfeign" />
-        <module name="cloud-consumer-order" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nacosconfig203" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

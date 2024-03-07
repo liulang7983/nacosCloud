@@ -22,7 +22,6 @@ spring:
         username: nacos
         password: nacos
         file-extension: yaml
-        refresh-enabled: true
 
 hex:
   tools:
