@@ -17,6 +17,7 @@
         <module>namespace-config</module>
         <module>nacos-sentinel</module>
         <module>nacos-config-consumer</module>
+        <module>nacos-config-payment</module>
     </modules>
 
     <properties>
