@@ -18,6 +18,7 @@
         <module>nacos-sentinel</module>
         <module>nacos-config-consumer</module>
         <module>nacos-config-payment</module>
+        <module>nacos-clsaaify</module>
     </modules>
 
     <properties>

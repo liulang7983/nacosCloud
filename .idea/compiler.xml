@@ -12,6 +12,7 @@
         <module name="cloud-api-commons" />
         <module name="cloud-provide-payment" />
         <module name="nacos-config" />
+        <module name="nacos-clsaaify" />
         <module name="cloud-consumer-order" />
         <module name="nacos-sentinel" />
         <module name="consumeropenfeign" />
