@@ -13,9 +13,12 @@
         <module name="cloud-provide-payment" />
         <module name="nacos-config" />
         <module name="nacos-clsaaify" />
-        <module name="cloud-consumer-order" />
+        <module name="nacos-config-cluster" />
         <module name="nacos-sentinel" />
         <module name="consumeropenfeign" />
+        <module name="cloud-consumer-order" />
+        <module name="nacos-config-cluster-bj" />
+        <module name="nacos-config-cluster-sz" />
         <module name="nacosconfigpayment" />
       </profile>
     </annotationProcessing>

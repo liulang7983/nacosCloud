@@ -13,9 +13,11 @@
     <file url="file://$PROJECT_DIR$/consumer-openfeign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-clsaaify" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-config-cluster" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-config-cluster-bj" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-config-cluster-sz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-config-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-config-payment" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/nacos-config2.0.3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-sentinel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/namespace-config" charset="UTF-8" />
   </component>

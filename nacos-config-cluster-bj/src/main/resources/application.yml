@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8869,127.0.0.1:8879,127.0.0.1:8889,127.0.0.1:8899
+      discovery:
+        server-addr: 127.0.0.1:8869,127.0.0.1:8879,127.0.0.1:8889,127.0.0.1:8899
+        namespace:
+        group: DEFAULT_GROUP
+        username: nacos
+        password: nacos
+        cluster-name: bj
+nacos:
+  config:
+    server-addr: 127.0.0.1:8869,127.0.0.1:8879,127.0.0.1:8889,127.0.0.1:8899
+    namespace:
+    data-id: nacos-config-cluster-bj
+    group: DEFAULT_GROUP
+    auto-refresh: true
+    type: yaml
+    bootstrap:
+      enable: true
+    username: nacos
+    password: nacos
+    file-extension: yaml
