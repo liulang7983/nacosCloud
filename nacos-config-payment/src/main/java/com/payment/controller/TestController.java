@@ -1,6 +1,6 @@
 package com.payment.controller;
 
-import org.springframework.beans.factory.annotation.Value;
+import com.alibaba.nacos.api.config.annotation.NacosValue;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class TestController {
-    @Value("${info}")
+    @NacosValue(value = "${info}",autoRefreshed = true)
     public String info;
     @RequestMapping("getInfo")
     public String getInfo(){
