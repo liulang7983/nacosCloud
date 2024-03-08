@@ -23,6 +23,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="nacos-config-cluster-payment" target="1.8" />
       <module name="nacosconfig203" target="1.8" />
     </bytecodeTargetLevel>
   </component>

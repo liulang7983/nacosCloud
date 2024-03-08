@@ -3,6 +3,7 @@ package com.cluster;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @Author ming.li
@@ -11,8 +12,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ClusterSZMain {
+@EnableFeignClients
+public class ClusterConsumerMain {
     public static void main(String[] args) {
-        SpringApplication.run(ClusterSZMain.class,args);
+        SpringApplication.run(ClusterConsumerMain.class,args);
     }
 }

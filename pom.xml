@@ -20,8 +20,8 @@
         <module>nacos-config-payment</module>
         <module>nacos-clsaaify</module>
         <module>nacos-config-cluster</module>
-        <module>nacos-config-cluster-sz</module>
-        <module>nacos-config-cluster-bj</module>
+        <module>nacos-config-cluster-payment</module>
+        <module>nacos-config-cluster-consumer</module>
     </modules>
 
     <properties>

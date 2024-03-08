@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nacos-config-cluster-bj</artifactId>
+    <artifactId>nacos-config-cluster-consumer</artifactId>
     <dependencies>
 
         <dependency>
@@ -67,6 +67,11 @@
             <groupId>com.alibaba.nacos</groupId>
             <artifactId>nacos-spring-context</artifactId>
             <version>1.1.1</version>
+        </dependency>
+        <!--open-feign依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
 

@@ -11,8 +11,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ClusterBJMain {
+public class ClusterPaymentMain {
     public static void main(String[] args) {
-        SpringApplication.run(ClusterBJMain.class,args);
+        SpringApplication.run(ClusterPaymentMain.class,args);
     }
 }

@@ -1,0 +1,28 @@
+spring:
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8869,127.0.0.1:8879,127.0.0.1:8889,127.0.0.1:8899
+      discovery:
+        server-addr: 127.0.0.1:8869,127.0.0.1:8879,127.0.0.1:8889,127.0.0.1:8899
+        namespace:
+        group: DEFAULT_GROUP
+        username: nacos
+        password: nacos
+  application:
+    name: nacos-config-cluster-consumer
+nacos-config-cluster-payment:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡规则
+#nacos:
+#  config:
+#    server-addr: 127.0.0.1:8869,127.0.0.1:8879,127.0.0.1:8889,127.0.0.1:8899
+#    namespace:
+#    data-id: nacos-config-cluster-bj
+#    group: DEFAULT_GROUP
+#    auto-refresh: true
+#    type: yaml
+#    bootstrap:
+#      enable: true
+#    username: nacos
+#    password: nacos
+#    file-extension: yaml
