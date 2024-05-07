@@ -12,7 +12,7 @@ spring:
     name: nacos-config-cluster-consumer
 nacos-config-cluster-payment:
   ribbon:
-    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡规则
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡规则,可区分集群调用，优先同集群
 #nacos:
 #  config:
 #    server-addr: 127.0.0.1:8869,127.0.0.1:8879,127.0.0.1:8889,127.0.0.1:8899
