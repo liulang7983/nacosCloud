@@ -1,5 +1,6 @@
 package com.classify.controller;
 
+import com.alibaba.nacos.api.config.annotation.NacosValue;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,10 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("classify")
-@RefreshScope
+//@RefreshScope
 public class ClassifyController {
-
-    @Value("${info}")
+    //加上autoRefreshed =true可以自动热刷新
+    @NacosValue(value = "${info}",autoRefreshed =true)
     public String info;
 
     @RequestMapping("getInfo")
